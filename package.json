@@ -1,0 +1,59 @@
+{
+  "name": "speedy-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@chakra-ui/vue": "^0.10.0",
+    "@emotion/css": "^11.1.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "all": "0.0.0",
+    "braces": "^3.0.2",
+    "cache-loader": "^4.1.0",
+    "concat-stream": "^2.0.0",
+    "core-js": "^3.17.1",
+    "dependencies": "0.0.1",
+    "emotion": "^11.0.0",
+    "to": "^0.2.9",
+    "upgrade": "^1.1.0",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.17",
+    "@vue/cli-plugin-eslint": "^4.5.17",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "@vue/cli-service": "^4.5.17",
+    "babel-eslint": "^10.1.0",
+    "chakra-loader": "^1.0.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "vue-cli-plugin-chakra-ui": "~1.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
