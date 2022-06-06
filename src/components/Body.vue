@@ -26,4 +26,10 @@ export default {
     margin: 14px;
 }
 
+@media screen and (max-height: 700px) {
+    .body--container {
+        height: 75vh;
+    }
+}
+
 </style>

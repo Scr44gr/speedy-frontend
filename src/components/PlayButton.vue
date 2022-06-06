@@ -23,7 +23,7 @@ export default {
 
 <style>
 .play-button {
-    background-color: #fffb95;
+    background-color: #fffb95!important;
     box-shadow: #fffb95 0px 0px 8px;
 }
 </style>

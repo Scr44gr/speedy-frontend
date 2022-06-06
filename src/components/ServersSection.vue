@@ -8,7 +8,7 @@
         >
             <c-tab-list>
                 <c-tab :isDisabled="true">Speedy</c-tab>
-                <c-tab>HappyWars</c-tab>
+                <c-tab>Servers</c-tab>
             </c-tab-list>
 
             <c-tab-panels>
@@ -97,10 +97,8 @@ export default {
     min-width: 500px;
     min-height: 400px;
     max-height: 550px;
-    border-radius: 0px 0px 5px 5px; /* not on top*/
+    border-radius: 0px 0px 5px 5px;
 }
-
-/* the buttons are inside the tab container but i dont know the route*/
 
 #c-tab--container div button {
     background-color: #e16969a9;
